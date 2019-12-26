@@ -2,13 +2,14 @@ package com.lalit.jokes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringBootJokesAppApplication {
+public class SpringBootJokesAppApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		//github jenkins webhook test
+
 		SpringApplication.run(SpringBootJokesAppApplication.class, args);
-		//another github jenkins webhook test
+
 	}
 }
